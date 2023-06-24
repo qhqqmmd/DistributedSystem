@@ -1,0 +1,176 @@
+// start the server; client and admin  individually
+
+zziruihuang@ziruideMacBook-Pro src % java JokeClient.java
+Now communicating with:127.0.0.1, port 4545
+
+please Enter your name:
+hello//put name
+java.net.ConnectException: Connection refused
+Mode is null(0 is Joke, 1 is Proverb)
+Get start? or enter ‘quit’
+quit// whenever you put quit will shot down the client!
+finish!
+
+ziruihuang@ziruideMacBook-Pro src % java JokeServer     
+Mode is 0
+0 is joke, 1 is proverb
+JokeServer!!! in port 4545.
+
+Admin ready
+
+ziruihuang@ziruideMacBook-Pro src % java JokeClientAdmin.java
+Here is Admin
+name: 127.0.0.1, port: 5050
+please Enter '0'(joke mode) or '1'(proverb mode):
+
+
+//start a server and client and run 1 random cycle
+
+ziruihuang@ziruideMacBook-Pro src % java JokeServer//the sever output
+Mode is 0//mode number 
+0 is joke, 1 is proverb//for user
+JokeServer!!! in port 4545.//port number
+
+Admin ready
+Called by test//every time call by client, server will print - called by “name”
+Called by test
+Called by test
+Called by test
+
+
+ziruihuang@ziruideMacBook-Pro src % java JokeClient.java//the client 
+Now communicating with:127.0.0.1, port 4545
+
+please Enter your name:
+test
+Mode is 0(0 is Joke, 1 is Proverb)
+Get start? or enter 'quit'
+
+JA test: What’s one way we know the ocean is friendly? It waves.
+//you will get a joke or proverb when you enter any thing but ”quit”
+
+JD test: What is Forrest Gump’s email password? 1forrest1.
+
+JC test: What do you call a fish with no eyes? A fsh.
+
+JB test: What’s one animal you’ll always find at a baseball game? A bat.
+One joke cycle is done      // there always have a notice when they return all joke.
+
+JB test: What’s one animal you’ll always find at a baseball game? A bat.
+
+JC test: What do you call a fish with no eyes? A fsh.
+
+JA test: What’s one way we know the ocean is friendly? It waves.
+
+JD test: What is Forrest Gump’s email password? 1forrest1.
+One joke cycle is done
+quit
+finish!
+
+
+//there have random order and “JA””JB” and name in the joke !
+
+
+//log of order and admin and stop point check!!!
+
+//client output
+
+ziruihuang@ziruideMacBook-Pro src % java JokeClient.java
+Now communicating with:127.0.0.1, port 4545
+
+please Enter your name:
+test3
+Mode is 0(0 is Joke, 1 is Proverb)
+Get start? or enter 'quit'
+
+JA test3: What’s one way we know the ocean is friendly? It waves.
+
+JD test3: What is Forrest Gump’s email password? 1forrest1.
+
+JB test3: What’s one animal you’ll always find at a baseball game? A bat.
+
+	//this is the point 1 which  I use admin to change the mode !!!
+
+PC test3: Necessity is the mother of invention.
+
+PB test3: If at first you don’t succeed, try, try again.Don’t beat your head against a stone wall.
+
+PD test3: Two wrongs don’t make a right.
+
+	//this is the point 2 I switch back to joke mode !!!
+
+JC test3: What do you call a fish with no eyes? A fsh.
+One joke cycle is done//the last out put joke and cycle is down 
+
+JC test3: What do you call a fish with no eyes? A fsh.//new cycle start
+
+	//this is the point 3 to change to Proverb mode!!!
+
+PA test3: Every cloud has a silver lining.
+One proverb cycle is done//check the proverb cycle just samething
+quit
+finish!
+
+//The admin out put//and I use 3 times to check these function  
+ziruihuang@ziruideMacBook-Pro src % java JokeClientAdmin.java
+Here is Admin
+name: 127.0.0.1, port: 5050
+please Enter '0'(joke mode) or '1'(proverb mode)://enter 1 or 0 to change mode 
+1
+change from Mode is:0//notice latest mode 
+set done!//notice when done //and close the socket!!!
+ziruihuang@ziruideMacBook-Pro src % java JokeClientAdmin.java
+Here is Admin
+name: 127.0.0.1, port: 5050
+please Enter '0'(joke mode) or '1'(proverb mode):
+0
+change from Mode is:1
+set done!
+ziruihuang@ziruideMacBook-Pro src % java JokeClientAdmin.java
+Here is Admin
+name: 127.0.0.1, port: 5050
+please Enter '0'(joke mode) or '1'(proverb mode):
+1
+change from Mode is:0
+set done!
+
+
+//The server out put
+ziruihuang@ziruideMacBook-Pro src % java JokeServer
+Mode is 0
+0 is joke, 1 is proverb
+JokeServer!!! in port 4545.
+
+Admin ready
+Called by test3
+Called by test3
+Called by test3
+Admin ready//
+Port:5050
+You are in Admin Tread! Mode:0;0 is joke，1 is proverb
+
+//every time you open the admin there will have the notice 
+
+mode to 1（proverb）//server  will get the mode when admin set the mode 
+//the point1
+ 
+Called by test3
+Called by test3
+Called by test3
+Admin ready
+Port:5050
+You are in Admin Tread! Mode:1;0 is joke，1 is proverb
+mode to 0（joke）//the point 2
+Called by test3
+Called by test3
+Admin ready
+Port:5050
+You are in Admin Tread! Mode:0;0 is joke，1 is proverb
+mode to 1（proverb）//the point 3
+Called by test3
+Called by test3
+
+
+
+
+

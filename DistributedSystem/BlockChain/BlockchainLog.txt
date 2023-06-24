@@ -1,0 +1,172 @@
+Process0
+
+
+/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA Edu.app/Contents/lib/idea_rt.jar=64886:/Applications/IntelliJ IDEA Edu.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/ziruihuang/Desktop/blockchain/blockchain/out/production/blockchain:/Users/ziruihuang/Desktop/blockchain/blockchain/src/gson-2.8.2.jar stepE.Blockchain 0
+come from process[0]
+---------------------------------------------------------------------
+wait for the P2 signal 4740
+signal:start
+Key in Byte[] form: [B@1b4fb997
+Key in String form: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCofTURXOSWozjTrwJUZq5r87VJkH+1G5Q26XsQ64swDC+BgplsnhsuzP/eDe8K9GhlDvXfaBmGx21wU0Ym9KaB7WVnXzaKZjq0e1RzxchBt6UdGRXT8s6NYps4CVcq2MQRnXxgvYOJa7ITHP4vHpszy654cSmRlxRc5HiEfVUMZwIDAQAB
+Using input file: BlockInput0.txt
+Timestamp:  2022-11-01.22:01:46.0
+Timestamp:  2022-11-01.22:01:47.0
+Timestamp:  2022-11-01.22:01:48.0
+Timestamp:  2022-11-01.22:01:49.0
+Starting Key Server input thread using 4710
+Starting the Blockchain server input thread using 4930
+Starting the Unverified Block Server input thread using 4820
+Hash is: 4E901DCC65C20D4742FC03F382B0CC07A6F34AD5330274BFAC73254BC77EDA9C
+First 16 bits in Hex and Decimal: 4E90 and 20112
+20112 is not less than 20,000 so we did not solve the puzzle
+
+Abandon block
+--------------work with the first block0--------------
+Proccess ID:1Public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDLoF5tyAeA/Yf8+Yu+5HsrrIK/elhgKP4h5k00cCP02jCYqr5ZaPdfX18Kk24FvtJfsSBcMdIw6VzRST2ShzYcv/3R9fjaidLCeBt4I/0YE1enEPYPV+38Q1sHLQdmelc0aYg5Nyy8C0Vwf9d/A5wAF8EORtn3prZjP5tNK4PpQIDAQAB
+-------------------the public key received-------------
+Proccess ID:2Public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgTQIT020hfy3U6X8bZIYboWgA6ob6cIKMte0xDDIgHT+uu46gpfh+eLxPFBK9lEBiqSwnyOst0BP4S+XShFLal6IaEyWQ9FJeSQYZdNMWEkJjiynGGplDOlcAKv1hJnUNChXeXPD8uah3nPw8/FlQP/bQNFLCbH2096P8Msr8FwIDAQAB
+-------------------the public key received-------------
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+Unique Block ID: 2799244e-d44c-4fa3-b85c-7f35e8a72e71
+
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+Unique Block ID: 2c03b7a4-b123-4d05-844a-ea1c71d3d61f
+
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+Unique Block ID: e59589b7-68c9-4e9a-af6a-07362b559250
+
+Name input:John Smith
+Name input:Joe Blow
+Name input:Julie Wilson
+Name input:Wayne Blaine
+Name in PriorityQueue order:John Smithtime: 2022-11-01.22:01:46.0
+Name in PriorityQueue order:Rita Vitatime: 2022-11-01.22:01:46.1
+Name in PriorityQueue order:Wei Xutime: 2022-11-01.22:01:47.1
+Name in PriorityQueue order:Helen Kellertime: 2022-11-01.22:01:47.2
+Name in PriorityQueue order:Joe Blowtime: 2022-11-01.22:01:47.0
+Name in PriorityQueue order:Julie Wilsontime: 2022-11-01.22:01:48.0
+Name in PriorityQueue order:Sally McCuttytime: 2022-11-01.22:01:48.1
+Name in PriorityQueue order:Bruce Leetime: 2022-11-01.22:01:49.1
+Name in PriorityQueue order:Wayne Blainetime: 2022-11-01.22:01:49.0
+Name in PriorityQueue order:Abraham Lincolntime: 2022-11-01.22:01:48.2
+Name in PriorityQueue order:John Kennedytime: 2022-11-01.22:01:49.2
+Name in PriorityQueue order:Joe DiMaggiotime: 2022-11-01.22:01:50.2
+---------------------try to verifyed these blocks-------------------
+Unique Block ID: e783ac8b-82d6-4f2b-a633-d8ccec675684
+
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
+
+Process 1
+
+/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA Edu.app/Contents/lib/idea_rt.jar=64889:/Applications/IntelliJ IDEA Edu.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/ziruihuang/Desktop/blockchain/blockchain/out/production/blockchain:/Users/ziruihuang/Desktop/blockchain/blockchain/src/gson-2.8.2.jar stepE.Blockchain 1
+come from process[1]
+---------------------------------------------------------------------
+wait for the P2 signal 5740
+signal:start
+Key in Byte[] form: [B@1b4fb997
+Key in String form: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDLoF5tyAeA/Yf8+Yu+5HsrrIK/elhgKP4h5k00cCP02jCYqr5ZaPdfX18Kk24FvtJfsSBcMdIw6VzRST2ShzYcv/3R9fjaidLCeBt4I/0YE1enEPYPV+38Q1sHLQdmelc0aYg5Nyy8C0Vwf9d/A5wAF8EORtn3prZjP5tNK4PpQIDAQAB
+Using input file: BlockInput1.txt
+Timestamp:  2022-11-01.22:01:46.1
+Timestamp:  2022-11-01.22:01:47.1
+Timestamp:  2022-11-01.22:01:48.1
+Timestamp:  2022-11-01.22:01:49.1
+Starting Key Server input thread using 5710
+Starting the Blockchain server input thread using 5930
+Starting the Unverified Block Server input thread using 5820
+Hash is: F974E126A2737787CD71876733B0969B12CCA7A046087607D96503AD734357F7
+First 16 bits in Hex and Decimal: F974 and 63860
+63860 is not less than 20,000 so we did not solve the puzzle
+
+Abandon block
+--------------work with the first block0--------------
+Proccess ID:0Public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCofTURXOSWozjTrwJUZq5r87VJkH+1G5Q26XsQ64swDC+BgplsnhsuzP/eDe8K9GhlDvXfaBmGx21wU0Ym9KaB7WVnXzaKZjq0e1RzxchBt6UdGRXT8s6NYps4CVcq2MQRnXxgvYOJa7ITHP4vHpszy654cSmRlxRc5HiEfVUMZwIDAQAB
+-------------------the public key received-------------
+Proccess ID:2Public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgTQIT020hfy3U6X8bZIYboWgA6ob6cIKMte0xDDIgHT+uu46gpfh+eLxPFBK9lEBiqSwnyOst0BP4S+XShFLal6IaEyWQ9FJeSQYZdNMWEkJjiynGGplDOlcAKv1hJnUNChXeXPD8uah3nPw8/FlQP/bQNFLCbH2096P8Msr8FwIDAQAB
+-------------------the public key received-------------
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+Name input:Rita Vita
+Name input:Wei Xu
+Name input:Sally McCutty
+Name input:Bruce Lee
+Name in PriorityQueue order:John Smithtime: 2022-11-01.22:01:46.0
+Name in PriorityQueue order:Rita Vitatime: 2022-11-01.22:01:46.1
+Name in PriorityQueue order:Wei Xutime: 2022-11-01.22:01:47.1
+Name in PriorityQueue order:Helen Kellertime: 2022-11-01.22:01:47.2
+Name in PriorityQueue order:Joe Blowtime: 2022-11-01.22:01:47.0
+Name in PriorityQueue order:Julie Wilsontime: 2022-11-01.22:01:48.0
+Name in PriorityQueue order:Sally McCuttytime: 2022-11-01.22:01:48.1
+Name in PriorityQueue order:Bruce Leetime: 2022-11-01.22:01:49.1
+Name in PriorityQueue order:Wayne Blainetime: 2022-11-01.22:01:49.0
+Name in PriorityQueue order:Abraham Lincolntime: 2022-11-01.22:01:48.2
+Name in PriorityQueue order:John Kennedytime: 2022-11-01.22:01:49.2
+Name in PriorityQueue order:Joe DiMaggiotime: 2022-11-01.22:01:50.2
+---------------------try to verifyed these blocks-------------------
+Unique Block ID: 8d80843c-2441-448e-976e-e888c4b99f21
+
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
+
+
+Process2
+
+/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA Edu.app/Contents/lib/idea_rt.jar=64892:/Applications/IntelliJ IDEA Edu.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/ziruihuang/Desktop/blockchain/blockchain/out/production/blockchain:/Users/ziruihuang/Desktop/blockchain/blockchain/src/gson-2.8.2.jar stepE.Blockchain 2
+come from process[2]
+---------------------------------------------------------------------
+wait for the P2 signal 6740
+signal:start
+Key in Byte[] form: [B@4c98385c
+Key in String form: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgTQIT020hfy3U6X8bZIYboWgA6ob6cIKMte0xDDIgHT+uu46gpfh+eLxPFBK9lEBiqSwnyOst0BP4S+XShFLal6IaEyWQ9FJeSQYZdNMWEkJjiynGGplDOlcAKv1hJnUNChXeXPD8uah3nPw8/FlQP/bQNFLCbH2096P8Msr8FwIDAQAB
+Using input file: BlockInput2.txt
+Timestamp:  2022-11-01.22:01:47.2
+Timestamp:  2022-11-01.22:01:48.2
+Timestamp:  2022-11-01.22:01:49.2
+Timestamp:  2022-11-01.22:01:50.2
+Starting Key Server input thread using 6710
+Starting the Blockchain server input thread using 6930
+Starting the Unverified Block Server input thread using 6820
+Hash is: B28E1DF04F0DAAA8714A47AE525859979A04523355BE25ACDD0F9D0C7DE2A624
+First 16 bits in Hex and Decimal: B28E and 45710
+45710 is not less than 20,000 so we did not solve the puzzle
+
+Abandon block
+--------------work with the first block0--------------
+Proccess ID:0Public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCofTURXOSWozjTrwJUZq5r87VJkH+1G5Q26XsQ64swDC+BgplsnhsuzP/eDe8K9GhlDvXfaBmGx21wU0Ym9KaB7WVnXzaKZjq0e1RzxchBt6UdGRXT8s6NYps4CVcq2MQRnXxgvYOJa7ITHP4vHpszy654cSmRlxRc5HiEfVUMZwIDAQAB
+-------------------the public key received-------------
+Proccess ID:1Public key:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDLoF5tyAeA/Yf8+Yu+5HsrrIK/elhgKP4h5k00cCP02jCYqr5ZaPdfX18Kk24FvtJfsSBcMdIw6VzRST2ShzYcv/3R9fjaidLCeBt4I/0YE1enEPYPV+38Q1sHLQdmelc0aYg5Nyy8C0Vwf9d/A5wAF8EORtn3prZjP5tNK4PpQIDAQAB
+-------------------the public key received-------------
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+ID:d4906271-88c0-4834-b5ce-261084679423
+num1
+Name input:Helen Keller
+Name input:Abraham Lincoln
+Name input:John Kennedy
+Name input:Joe DiMaggio
+Name in PriorityQueue order:John Smithtime: 2022-11-01.22:01:46.0
+Name in PriorityQueue order:Rita Vitatime: 2022-11-01.22:01:46.1
+Name in PriorityQueue order:Wei Xutime: 2022-11-01.22:01:47.1
+Name in PriorityQueue order:Helen Kellertime: 2022-11-01.22:01:47.2
+Name in PriorityQueue order:Joe Blowtime: 2022-11-01.22:01:47.0
+Name in PriorityQueue order:Julie Wilsontime: 2022-11-01.22:01:48.0
+Name in PriorityQueue order:Sally McCuttytime: 2022-11-01.22:01:48.1
+Name in PriorityQueue order:Bruce Leetime: 2022-11-01.22:01:49.1
+Name in PriorityQueue order:Wayne Blainetime: 2022-11-01.22:01:49.0
+Name in PriorityQueue order:Abraham Lincolntime: 2022-11-01.22:01:48.2
+Name in PriorityQueue order:John Kennedytime: 2022-11-01.22:01:49.2
+Name in PriorityQueue order:Joe DiMaggiotime: 2022-11-01.22:01:50.2
+---------------------try to verifyed these blocks-------------------
+Unique Block ID: 2dfd7a24-fbdf-4c44-b59e-f03f75570062
+
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
